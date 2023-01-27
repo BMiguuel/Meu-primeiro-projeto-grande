@@ -1,0 +1,25 @@
+.main-button{
+    display: inline-block;
+    background-color: #eb4d4b;
+    box-shadow: 5px 5px 0px #303952;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: transform 100ms linear;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-button:hover{
+    transform: scale(1.08);
+    
+}
+
+.main-button.-full{
+    width: 100%;
+}
+
+.main-button.-full:hover{
+    transform: scale(1.01);
+    
+}
